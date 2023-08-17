@@ -10,7 +10,6 @@ def parrtition(array,low,high):
             (array[i],array[j])=(array[j],array[i])
     (array[i+1],array[high])=(array[high],array[i+1])
     return i+1
- 
 def quickSort(array,low,high):
     if low<high:
         pi=parrtition(array,low,high)
